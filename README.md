@@ -20,4 +20,4 @@ The original goal of this export format was to support ingestion by the [OpenCSP
 
 ## Warning!
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+This is a working proof of concept and "pre-alpha" quality. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

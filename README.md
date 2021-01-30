@@ -6,6 +6,10 @@ To enable high-fidelity, offline review of Kubernetes clusters as a part of Dark
 
 The original goal of this export format was to support ingestion by the [OpenCSPM](https://github.com/opencspm/opencspm) analysis platform.  However, there are instances where analysis is best performed with a quick run of `kubectl`.  Without having direct access to a client's cluster, a "mirror" cluster is needed.
 
+## What?
+
+Using the `kube-exporter.sh` in this repo, all the resources in a target cluster are exported to a local, new-line delimited json format.  To view, this data, another instance of etcd and the kube-apiserver are needed, so that's what is baked into the container specified by this Dockerfile.  The idea is that a local docker container running just the barebones components needed can be populated with the raw exported data directly into etcd.
+
 ## How?
 
 * Clone the repository
